@@ -1,0 +1,32 @@
+<header>
+        <img src="" alt="">
+        <ul>
+            <li>modelos</li>
+            <li>sobre</li>
+            <li>regioes</li>
+            <li>servicos</li>
+        </ul>
+    </header>    <header class="cabecalho">tipos de serviços feitos com maquinas pesadas                                
+    <img class="cabecalho-imagem" src="alurastart logo.png" alt="logo da alura start">
+    <ul class="cabecalho-lista">
+        <li class="cabecalho-lista-item">Escola</li>
+        <li class="cabecalho-lista-item">Estudante</li>
+    </ul>
+</header>.cabecalho-imagem{
+    width: 20%;
+}.cabecalho {
+    background-color: #424E61;
+    color: rgb(192, 50, 50);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
